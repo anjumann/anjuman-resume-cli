@@ -1,4 +1,5 @@
-# CLI Application
+# Anjuman's CLI Portfolio
+
 
 This is a CLI application that provides information about a software development engineer's portfolio. It allows you to access various sections such as About Me, Projects, Skills, Contact, Experience, Education, Certificate, and POR (Position of Responsibility).
 
