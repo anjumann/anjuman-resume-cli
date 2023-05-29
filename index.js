@@ -3,6 +3,14 @@ const { program } = require('commander');
 const { mainPrompt } = require('./main');
 
 
+
+program.version('1.0.0').description('My Portfolio');
+
+
+program.action(() => {
+  mainPrompt();
+});
+
 program
   .command('main')
   .description('Go to main menu')
@@ -67,7 +75,7 @@ program
   });
 
 program
-  .command('Position of Responsibility')
+  .command('POR')
   .description('Go to certificate section')
   .action(() => {
     por();
