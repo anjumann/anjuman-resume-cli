@@ -4,6 +4,7 @@ const figlet = require('figlet');
 const gradient = require('gradient-string');
 const { SingleBar } = require('cli-progress');
 const { linkText } = require('./utils');
+const { mainPrompt } = require('./main');
 
 
 const headerFiglet = () => {
@@ -16,10 +17,10 @@ const headerFiglet = () => {
         console.log(gradient.fruit(data));
     });
 
-
 }
 
-const aboutMe = () => {
+
+function aboutMe() {
 
     console.log(gradient.cristal('\n👋 Hello! I\'m a passionate Software Development Engineer with expertise in the MERN stack.'));
     console.log(gradient.cristal('\n🚀 Skilled in full-stack web development, I excel in leveraging front-end technologies (HTML, CSS, JavaScript) and building robust back-end solutions using Node.js and Express.js. 🌐'));
@@ -28,7 +29,9 @@ const aboutMe = () => {
     console.log(gradient.cristal('\n💡 Solving complex problems and creating innovative solutions drive my passion for software development. 💪'));
     console.log(gradient.cristal('\nFeel free to connect with me to discuss exciting opportunities in web development or tech collaboration.'));
     console.log('\n📬 You can reach me via email at '+ (linkText("anjumanraj2@gmail.com", "mailto:anjumanraj2@gmail.com")))
+
+    
 }
 
 
-module.exports = { headerFiglet, aboutMe };
+module.exports = { aboutMe };
