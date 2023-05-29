@@ -63,6 +63,7 @@ function projects() {
             "link": "https://github.com/anjumann"
         },
     ]
+    console.log(gradient.cristal('\nComing soon...'));
     console.table(project);
 
 
@@ -233,13 +234,8 @@ function contact() {
 
 
 function experience() {
-    console.log(gradient.cristal('\n👋 Hello! I\'m a passionate Software Development Engineer with expertise in the MERN stack.'));
-    console.log(gradient.cristal('\n🚀 Skilled in full-stack web development, I excel in leveraging front-end technologies (HTML, CSS, JavaScript) and building robust back-end solutions using Node.js and Express.js. 🌐'));
-    console.log(gradient.cristal('\n🔧 Detail-oriented and committed to code quality, I strive to deliver high-quality projects while adhering to best practices. ⚙️'));
-    console.log(gradient.cristal('\n🎯 Constantly staying updated with the latest industry trends, I am a quick learner and continuously expanding my technical skillset. 📚'));
-    console.log(gradient.cristal('\n💡 Solving complex problems and creating innovative solutions drive my passion for software development. 💪'));
-    console.log(gradient.cristal('\nFeel free to connect with me to discuss exciting opportunities in web development or tech collaboration.'));
-    console.log(gradient.cristal('\n📬 You can reach me via email at ') + (linkText("anjumanraj2@gmail.com", "mailto:anjumanraj2@gmail.com")))
+    console.log(gradient.cristal('\nComing soon...'));
+
 
 
 
@@ -266,15 +262,7 @@ function experience() {
 
 
 function education() {
-    console.log(gradient.cristal('\n👋 Hello! I\'m a passionate Software Development Engineer with expertise in the MERN stack.'));
-    console.log(gradient.cristal('\n🚀 Skilled in full-stack web development, I excel in leveraging front-end technologies (HTML, CSS, JavaScript) and building robust back-end solutions using Node.js and Express.js. 🌐'));
-    console.log(gradient.cristal('\n🔧 Detail-oriented and committed to code quality, I strive to deliver high-quality projects while adhering to best practices. ⚙️'));
-    console.log(gradient.cristal('\n🎯 Constantly staying updated with the latest industry trends, I am a quick learner and continuously expanding my technical skillset. 📚'));
-    console.log(gradient.cristal('\n💡 Solving complex problems and creating innovative solutions drive my passion for software development. 💪'));
-    console.log(gradient.cristal('\nFeel free to connect with me to discuss exciting opportunities in web development or tech collaboration.'));
-    console.log(gradient.cristal('\n📬 You can reach me via email at ') + (linkText("anjumanraj2@gmail.com", "mailto:anjumanraj2@gmail.com")))
-
-
+    console.log(gradient.cristal('\nComing soon...'));
 
     const question = {
         type: 'confirm',
@@ -298,15 +286,7 @@ function education() {
 }
 
 function certificate() {
-    console.log(gradient.cristal('\n👋 Hello! I\'m a passionate Software Development Engineer with expertise in the MERN stack.'));
-    console.log(gradient.cristal('\n🚀 Skilled in full-stack web development, I excel in leveraging front-end technologies (HTML, CSS, JavaScript) and building robust back-end solutions using Node.js and Express.js. 🌐'));
-    console.log(gradient.cristal('\n🔧 Detail-oriented and committed to code quality, I strive to deliver high-quality projects while adhering to best practices. ⚙️'));
-    console.log(gradient.cristal('\n🎯 Constantly staying updated with the latest industry trends, I am a quick learner and continuously expanding my technical skillset. 📚'));
-    console.log(gradient.cristal('\n💡 Solving complex problems and creating innovative solutions drive my passion for software development. 💪'));
-    console.log(gradient.cristal('\nFeel free to connect with me to discuss exciting opportunities in web development or tech collaboration.'));
-    console.log(gradient.cristal('\n📬 You can reach me via email at ') + (linkText("anjumanraj2@gmail.com", "mailto:anjumanraj2@gmail.com")))
-
-
+    console.log(gradient.cristal('\nComing soon...'));
 
     const question = {
         type: 'confirm',
@@ -330,15 +310,7 @@ function certificate() {
 }
 
 function por() {
-    console.log(gradient.cristal('\n👋 Hello! I\'m a passionate Software Development Engineer with expertise in the MERN stack.'));
-    console.log(gradient.cristal('\n🚀 Skilled in full-stack web development, I excel in leveraging front-end technologies (HTML, CSS, JavaScript) and building robust back-end solutions using Node.js and Express.js. 🌐'));
-    console.log(gradient.cristal('\n🔧 Detail-oriented and committed to code quality, I strive to deliver high-quality projects while adhering to best practices. ⚙️'));
-    console.log(gradient.cristal('\n🎯 Constantly staying updated with the latest industry trends, I am a quick learner and continuously expanding my technical skillset. 📚'));
-    console.log(gradient.cristal('\n💡 Solving complex problems and creating innovative solutions drive my passion for software development. 💪'));
-    console.log(gradient.cristal('\nFeel free to connect with me to discuss exciting opportunities in web development or tech collaboration.'));
-    console.log(gradient.cristal('\n📬 You can reach me via email at ') + (linkText("anjumanraj2@gmail.com", "mailto:anjumanraj2@gmail.com")))
-
-
+    console.log(gradient.cristal('\nComing soon...'));
 
     const question = {
         type: 'confirm',
@@ -375,7 +347,7 @@ const mainPrompt = async () => {
         type: 'list',
         name: 'choice',
         message: 'Select an option:',
-        
+
         choices: [
             { name: 'About Me', value: 'aboutMe' },
             { name: 'Projects', value: 'projects' },
