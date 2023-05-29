@@ -1,20 +1,80 @@
 #!/usr/bin/env node
-const {aboutMe} = require('./sections/about');
 const { program } = require('commander');
-const { mainPrompt } = require('./sections/main');
-const { test } = require('./sections/utils');
+const { mainPrompt } = require('./main');
 
 
 program
-  .description('Main Menu')
+  .command('main')
+  .description('Go to main menu')
   .action(() => {
     mainPrompt();
-    // test()
+  });
+
+
+program
+  .command('about')
+  .description('Go to about section')
+  .action(() => {
+    aboutMe();
+  });
+
+
+program
+  .command('projects')
+  .description('Go to projects section')
+  .action(() => {
+    projects();
+  });
+
+
+program
+  .command('skills')
+  .description('Go to skills section')
+  .action(() => {
+    skills();
+  });
+
+
+program
+  .command('contact')
+  .description('Go to contact section')
+  .action(() => {
+    contact();
+  });
+
+
+program
+  .command('experience')
+  .description('Go to experience section')
+  .action(() => {
+    experience();
+  });
+
+
+program
+  .command('education')
+  .description('Go to education section')
+  .action(() => {
+    education();
+  });
+
+
+program
+  .command('certifications')
+  .description('Go to certificate section')
+  .action(() => {
+    certificate();
   });
 
 program
-  .command('sample <a> <b>')
-  .description('sample')
-  .action((a, b) => { console.log(parseInt(a) + parseInt(b)); });
+  .command('Position of Responsibility')
+  .description('Go to certificate section')
+  .action(() => {
+    por();
+  });
+
+
+
+
 
 program.parse(process.argv);

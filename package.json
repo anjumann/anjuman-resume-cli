@@ -1,9 +1,9 @@
 {
-  "name": "anjuman-resume",
+  "name": "anjuman",
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "anjuman-resume": "index.js"
+    "anjuman": "index.js"
   },
   "main": "index.js",
   "scripts": {
