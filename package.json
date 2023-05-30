@@ -9,18 +9,27 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Anjuman Raj",
   "license": "ISC",
+  "keywords": [
+    "resume",
+    "anjuman",
+    "cli",
+    "cli-resume",
+    "resume-cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anjumann/anjuman-resume-cli"
+  },
   "dependencies": {
     "ansi-colors": "^4.1.3",
     "chalk": "^4.1.2",
-    "cli-progress": "^3.12.0",
     "cli-table": "^0.3.11",
     "commander": "^10.0.1",
     "gradient-string": "^2.0.2",
     "inquirer": "^8.1.0",
     "terminal-kit": "^3.0.0",
-    "terminal-link": "^3.0.0",
     "yosay": "^2.0.2"
   }
 }
